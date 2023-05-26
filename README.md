@@ -16,19 +16,19 @@ Following the commands below, the different nodes use for obstacle avoidance can
 1) Clone the demo repository.
 
 
-`LAPTOP $ git clone https://github.com/JoseTejedaGuzman/Duckiebot.git`
+`~LAPTOP $ git clone https://github.com/JoseTejedaGuzman/Duckiebot.git`
 
 2) Go to the cloned folder
 
-~LAPTOP $ cd Duckiebot
+`~LAPTOP $ cd Duckiebot`
 
 3) Build docker containers (Remember to replace [DUCKIEBOT_NAME] with the appropiate vehicle name
 
-~LAPTOP $ dts devel build -H [DUCKIEBOT_NAME].local
+`~LAPTOP $ dts devel build -H [DUCKIEBOT_NAME].local`
 
 4) Run the DEMO container:
 
-~LAPTOP $ dts devel run -R [DUCKIEBOT_NAME]
+`~LAPTOP $ dts devel run -R [DUCKIEBOT_NAME]`
 
 
 If you create an executable script (i.e., a file with a valid shebang statement)
