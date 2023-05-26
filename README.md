@@ -22,7 +22,7 @@ Following the commands below, the different nodes use for obstacle avoidance can
 
 `~LAPTOP $ cd Duckiebot`
 
-3) Build docker containers (Remember to replace [DUCKIEBOT_NAME] with the appropiate vehicle name
+3) Build docker containers (Remember to replace `[DUCKIEBOT_NAME]` with the appropiate vehicle name
 
 `~LAPTOP $ dts devel build -H [DUCKIEBOT_NAME].local`
 
