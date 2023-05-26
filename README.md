@@ -15,7 +15,8 @@ Following the commands below, the different nodes use for obstacle avoidance can
 
 1) Clone the demo repository.
 
-'LAPTOP $ git clone https://github.com/JoseTejedaGuzman/Duckiebot.git'
+
+`LAPTOP $ git clone https://github.com/JoseTejedaGuzman/Duckiebot.git`
 
 2) Go to the cloned folder
 
