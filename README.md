@@ -9,34 +9,26 @@ ROS, check out [this template](https://github.com/duckietown/template-basic).
 
 ## How to use it
 
-### 1. Fork this repository
+### 1. Prepare the static obstacle avoidance
 
-Use the fork button in the top-right corner of the github page to fork this template repository.
+Following the commands below, the different nodes use for obstacle avoidance can be implemented.
 
+1) Clone the demo repository.
 
-### 2. Create a new repository
+LAPTOP $ git clone https://github.com/JoseTejedaGuzman/Duckiebot.git
 
-Create a new repository on github.com while
-specifying the newly forked template repository as
-a template for your new repository.
+2) Go to the cloned folder
 
+~LAPTOP $ cd Duckiebot
 
-### 3. Define dependencies
+3) Build docker containers (Remember to replace [DUCKIEBOT_NAME] with the appropiate vehicle name
 
-List the dependencies in the files `dependencies-apt.txt` and
-`dependencies-py3.txt` (apt packages and pip packages respectively).
+~LAPTOP $ dts devel build -H [DUCKIEBOT_NAME].local
 
+4) Run the DEMO container:
 
-### 4. Place your code
+~LAPTOP $ dts devel run -R [DUCKIEBOT_NAME]
 
-Place your code in the directory `/packages/` of
-your new repository.
-
-
-### 5. Setup launchers
-
-The directory `/launchers` can contain as many launchers (launching scripts)
-as you want. A default launcher called `default.sh` must always be present.
 
 If you create an executable script (i.e., a file with a valid shebang statement)
 a launcher will be created for it. For example, the script file 
